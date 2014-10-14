@@ -1,9 +1,9 @@
 package es.upm.miw.pd.ecp1.doo;
 
-public class Summation {
+public class Addition extends Operations{
     private final int operator1, operator2;
 
-    public Summation(final int operator1, final int operator2) {
+    public Addition(final int operator1, final int operator2) {
         this.operator1 = operator1;
         this.operator2 = operator2;
     }
@@ -16,12 +16,13 @@ public class Summation {
         return operator2;
     }
 
-    public int sum() {
+    @Override
+    public int calculo() {
         return this.operator1 + this.operator2;
     }
 
     @Override
-    public String toString() {
+    public String toString2() {
         return "[" + operator1 + "+" + operator2 + "]";
     }
 
