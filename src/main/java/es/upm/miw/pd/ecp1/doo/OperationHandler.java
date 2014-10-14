@@ -26,7 +26,7 @@ public class OperationHandler {
         String separator = "";
         for (Operations operando : operators) {
             if (operando != null) {
-                System.out.print(separator + operando.toString2());                
+                System.out.print(separator + operando.toString());                
                 result += operando.calculo();                
             }
                 separator = "+";

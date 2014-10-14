@@ -23,7 +23,7 @@ public class Multiplication extends Operations{
     }
 
     @Override
-    public String toString2() {
+    public String toString() {
         return "[" + operator1 + "*" + operator2 + "]";
     }
 

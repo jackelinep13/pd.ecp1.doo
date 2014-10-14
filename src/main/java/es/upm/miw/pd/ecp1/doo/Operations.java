@@ -6,7 +6,7 @@ public abstract class Operations {
     }
 	
 	public abstract int calculo();
-    public abstract String toString2();
+    public abstract String toString();
     
     
 
