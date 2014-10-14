@@ -5,12 +5,13 @@ public class VehiculoHandler {
 	private Vehiculo[] vehiculos = new Vehiculo[10];
 	
 	public void add(Vehiculo vehic) {
-        for (int i = 0; i < vehiculos.length; i++) {
+        for (int i = 0; i < vehiculos.length; i++) {        	
             if (vehiculos[i] == null) {
             	vehiculos[i] = vehic;
-            	System.out.println("testee "+ vehiculos[i].getId());
+            	return;
             }
         }
+        return;
     }
     
     
@@ -19,7 +20,6 @@ public class VehiculoHandler {
     	for (int i = 0; i < vehiculos.length; i++) {
     		if(vehiculos[i]!=null){
 	        	if (ident == vehiculos[i].getId()){
-	        		System.out.println(ident + "test "+ vehiculos[i].getId());
 	        		tot=vehiculos[i].precio(dias);
 	        	}
     		}	        	

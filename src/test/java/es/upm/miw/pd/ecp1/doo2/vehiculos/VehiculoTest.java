@@ -1,16 +1,8 @@
 package es.upm.miw.pd.ecp1.doo2.vehiculos;
 
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.junit.Test;
-
-import es.upm.miw.pd.ecp1.doo2.vehiculos.Bicicleta;
-import es.upm.miw.pd.ecp1.doo2.vehiculos.Categoria;
-import es.upm.miw.pd.ecp1.doo2.vehiculos.Coche;
-import es.upm.miw.pd.ecp1.doo2.vehiculos.Moto;
-import es.upm.miw.pd.ecp1.doo2.vehiculos.VehiculoHandler;
-
 
 public class VehiculoTest {
 	VehiculoHandler vh = new VehiculoHandler();
