@@ -7,8 +7,11 @@ public class Moto extends Vehiculo{
 	}
 
 	@Override
-	public double precio(int dias) {		
-		return 0.0;
+	public double precio(int dias) {
+		double precio=0;
+		
+		precio = (dias <= 7) ?  8*dias : 7*dias;
+		return precio;
 	}
 	
 }

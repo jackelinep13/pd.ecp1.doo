@@ -8,8 +8,12 @@ public class Bicicleta extends Vehiculo{
 
 	@Override
 	public double precio(int dias) {
-		return 0.0;
+		double precio=0;
+		
+		precio = (dias <= 2) ?  3*dias : (3*2 + (2*(dias-2)));
+		return precio;
 		
 	}
 	
 }
+
