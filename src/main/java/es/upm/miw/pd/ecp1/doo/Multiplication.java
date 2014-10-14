@@ -2,11 +2,8 @@ package es.upm.miw.pd.ecp1.doo;
 
 public class Multiplication extends Operations{
 	
-    private final int operator1, operator2;
-
-    public Multiplication(final int operator1, final int operator2) {
-        this.operator1 = operator1;
-        this.operator2 = operator2;
+    public Multiplication(int operator1, int operator2) {
+    	super(operator1, operator2);
     }
 
     public int getOperator1() {
