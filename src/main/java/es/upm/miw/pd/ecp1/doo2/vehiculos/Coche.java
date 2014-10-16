@@ -22,6 +22,10 @@ public class Coche extends Vehiculo{
 		return precio;
 	}
 	
+	@Override
+    public String toString() {
+        return "Creador de Coche";
+    }
 	
 
 }

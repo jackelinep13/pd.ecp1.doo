@@ -14,4 +14,9 @@ public class Moto extends Vehiculo{
 		return precio;
 	}
 	
+	@Override
+    public String toString() {
+        return "Creador de Moto";
+    }
+	
 }
